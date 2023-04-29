@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+
+body {
+    background: rgb(255,105,180);
+    background: radial-gradient(circle, #ff69b4 0%, #fc466b 100%);
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.container {
+    width: 90%;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.400);
+    background: rgb(255, 161, 208);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Quintessential', cursive;
+    font-size: 28px;
+    color: black;
+}
+
+.card {
+    display: flex; 
+    gap: 10px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.card-3 {
+    display: flex;
+    gap: 10px;
+}
+
+.container-2 {
+    width: 350px;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.400);
+    background: rgba(255, 255, 255, 0.6);
+    margin-bottom: 10px;
+}
+
+.container-1 {
+    width: 400px;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.400);
+    background: rgba(255, 255, 255, 0.6);
+    margin-bottom: 10px;
+}   
+
+.container-3 {
+    width: 180px;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.400);
+    background: rgba(255, 255, 255, 0.6);
+    margin-bottom: 10px;
+} 
+
+button {
+    margin-top: 50px;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.6);
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.400);
+    cursor: pointer;
+    font-family: 'Quintessential', cursive;
+    font-size: 22px;
+    color: black;
+}
+
+@media(max-width:450px){
+    h1 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .container{
+        display: block;
+        flex-direction: column;
+    }
+
+    .card {
+        display: block;
+    }
+
+    .container-2 {
+        width: 90%;
+    }
+
+    .container-1 {
+        width: 90%;
+    }
+}
