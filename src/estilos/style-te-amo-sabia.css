@@ -16,9 +16,9 @@ div {
     margin-top: 50px;
     width: 75%;
     padding: 15px;
-    border-radius: 15px;
-    border: 1px solid black;
-    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.400);
+    border-radius: 10px;
+    background: #ffa1d0;
+    box-shadow: inset 12px 12px 24px #bf799c, inset -12px -12px 24px #ffc9ff;
     background: rgb(255, 161, 208);
 }
 
@@ -36,10 +36,10 @@ button {
     margin-top: 50px;
     width: 100px;
     height: 50px;
+    border: none;
     border-radius: 10px;
-    background: rgba(255, 255, 255, 0.6);
-    border: 1px solid black;
-    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.400);
+    background: #ffa1d0;
+    box-shadow: inset 12px 12px 24px #bf799c, inset -12px -12px 24px #ffc9ff;
     cursor: pointer;
     font-family: 'Quintessential', cursive;
     font-size: 22px;

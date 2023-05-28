@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
 
 body {
-    background: rgb(255,105,180);
+    background: #ff69b4;
     background: radial-gradient(circle, #ff69b4 0%, #fc466b 100%);
 }
 
@@ -16,14 +16,10 @@ section {
 .container {
     width: 90%;
     padding: 15px;
-    border-radius: 15px;
-    border: 1px solid black;
-    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.400);
-    background: rgb(255, 161, 208);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    border-radius: 10px;
+    background: #ffa1d0;
+    box-shadow: inset 12px 12px 24px #bf799c, inset -12px -12px 24px #ffc9ff;
+    background: rgb(255, 161, 208); 
 }
 
 h1 {
@@ -33,61 +29,92 @@ h1 {
     color: black;
 }
 
-.card {
-    display: flex; 
-    gap: 10px;
+p {
+    font-size: 22px;
+    font-family: 'Quintessential', cursive;
     text-align: left;
-    margin-top: 10px;
-    margin-bottom: 20px;
 }
 
-.card-3 {
+.card1, .card2 {
     display: flex;
-    gap: 10px;
+    justify-content: center;
+}
+.post1 {
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 15px;
 }
 
-.container-2 {
-    width: 350px;
-    padding: 15px;
+.post2 {
+    width: 460px;
+    height: 400px;
+    padding: 10px;
+    margin: 5px;
     border-radius: 15px;
-    border: 1px solid black;
-    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.400);
-    background: rgba(255, 255, 255, 0.6);
-    margin-bottom: 10px;
+
 }
 
-.container-1 {
-    width: 400px;
-    padding: 15px;
+.post3 {
+    width: 304px;
+    height: 400px;
+    padding: 10px;
+    margin: 5px;
     border-radius: 15px;
-    border: 1px solid black;
-    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.400);
-    background: rgba(255, 255, 255, 0.6);
-    margin-bottom: 10px;
-}   
 
-.container-3 {
-    width: 180px;
-    padding: 15px;
+}
+
+.post4 {
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    margin: 5px;
     border-radius: 15px;
-    border: 1px solid black;
-    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.400);
-    background: rgba(255, 255, 255, 0.6);
-    margin-bottom: 10px;
-} 
+
+}
+
+.cor1 {
+    background: #94f3ff;
+    box-shadow: inset 32px 32px 64px #6fb6bf,
+            inset -32px -32px 64px #b9ffff;
+}
+
+.cor2 {
+    background: #ff69b4;
+    box-shadow: inset 32px 32px 64px #bf4f87,
+            inset -32px -32px 64px #ff83e1;
+}
+
+.cor3 {
+    background: #fff194;
+    box-shadow: inset 32px 32px 64px #bfb56f,
+            inset -32px -32px 64px #ffffb9;
+}
+
+.cor4 {
+    background: #fdfdfc;
+    box-shadow: inset 32px 32px 64px #bebebd,
+            inset -32px -32px 64px #ffffff;
+}
 
 button {
     margin-top: 50px;
     width: 100px;
     height: 50px;
+    border: none;
     border-radius: 10px;
-    background: rgba(255, 255, 255, 0.6);
-    border: 1px solid black;
-    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.400);
+    background: #ffa1d0;
+    box-shadow: inset 12px 12px 24px #bf799c, inset -12px -12px 24px #ffc9ff;
     cursor: pointer;
     font-family: 'Quintessential', cursive;
     font-size: 22px;
     color: black;
+}
+
+.inspiracao {
+    font-size: 18px;
+    text-align: center;
 }
 
 @media(max-width:450px){
@@ -99,20 +126,32 @@ button {
         font-size: 14px;
     }
 
-    .container{
-        display: block;
+    .card1, .card2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
     }
 
-    .card {
-        display: block;
+    .post1 {
+        width: 250px;
+        height: 100px;
     }
 
-    .container-2 {
-        width: 90%;
+    .post2{
+        width: 250px;
+        height: 275px;
     }
 
-    .container-1 {
-        width: 90%;
+    .post3 {
+        width: 250px;
+        height: 220px;
     }
+
+    .post4 {
+        width: 250px;
+        height: 100px;
+    }
+
+
 }

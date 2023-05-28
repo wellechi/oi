@@ -77,6 +77,12 @@ button {
     animation: pulsa 1s linear 0s infinite;
 }
 
+.feito {
+    font-size: 30px;
+    color: white;
+     font-family: 'Quintessential';
+}
+
 @keyframes pulsa {
     0% {
         transform: scale(0.9) rotate(0deg);
