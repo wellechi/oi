@@ -115,6 +115,7 @@ button {
 .inspiracao {
     font-size: 18px;
     text-align: center;
+    color: white;
 }
 
 @media(max-width:450px){
@@ -153,5 +154,7 @@ button {
         height: 100px;
     }
 
-
+    .inspiracao {
+        font-size: 12px; 
+    }
 }
