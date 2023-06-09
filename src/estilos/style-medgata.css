@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap');
+
+body {
+    background: rgb(255,105,180);
+    background: radial-gradient(circle, rgba(255,105,180,1) 0%, rgba(252,70,107,1) 100%);
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    margin-top: 50px;
+    width: 75%;
+    height: 90%;
+    padding: 15px;
+    border-radius: 10px;
+    background: #ffa1d0;
+    box-shadow: inset 12px 12px 24px #bf799c, inset -12px -12px 24px #ffc9ff;
+    background: rgb(255, 161, 208);
+    text-align: center;
+}
+
+.img_primaria {
+    width: 800px;
+    height: 1000px;
+}
+
+.img_texto{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.img_secundaria {
+    width: 330px;
+    height: 500px;
+    
+}
+
+h1 {
+    font-family: 'Quintessential', cursive;
+    font-size: 48px;
+}
+
+p {
+    font-family: 'Quintessential', cursive;
+    font-size: 20px;
+}
+
+button {
+    margin-top: 50px;
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background: #ffa1d0;
+    box-shadow: inset 12px 12px 24px #bf799c, inset -12px -12px 24px #ffc9ff;
+    cursor: pointer;
+    font-family: 'Quintessential', cursive;
+    font-size: 22px;
+    color: black;
+}
+
+@media (max-width: 450px) {
+
+    .container {
+        width: 75%;
+        height: 100%;
+    }
+
+    .img_primaria {
+        width: 98%;
+        height: 400px;
+    }
+
+    .img_texto {
+        flex-direction: column;
+    }
+
+    .img_secundaria {
+        width: 80%;
+        height: 350px;
+    }
+
+    .texto {
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
